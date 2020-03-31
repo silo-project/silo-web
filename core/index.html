@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <canvas id="editor" style="width: 100vh; height: 100vh;">
+            Your browser does not support Canvas!
+        </canvas>
+
+        <script src="/js/editor.js"></script>
+        <script>
+            const canvas = document.getElementById('editor');
+            const editor = new Editor(canvas);
+
+            editor.drawSomething();
+        </script>
+    </body>
+</html>
